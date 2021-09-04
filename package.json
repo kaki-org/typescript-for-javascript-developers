@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/kakikubo/typescript-for-javascript-developers/issues"
   },
-  "homepage": "https://github.com/kakikubo/typescript-for-javascript-developers#readme"
+  "homepage": "https://github.com/kakikubo/typescript-for-javascript-developers#readme",
+  "dependencies": {
+    "yarn": "^1.22.11"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.2"
+  }
 }
