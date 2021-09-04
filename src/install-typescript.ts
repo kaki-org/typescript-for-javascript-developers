@@ -1,2 +1,2 @@
-let message: string = 'Hello yarn ts-node-dev!';
+let message: string = 'Hello yarn ts-node-dev';
 console.log({ message });
