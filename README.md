@@ -46,7 +46,8 @@ npx ts-node-dev --respawn src/install-typescript.ts
 yarn dev src/hoge.ts
 ```
 
-などで起動できるようになる
+などで起動できるようになる。
+hoge.ts は編集して保存するたびにトランスパイルされ、実行される。
 
 ## tsconfig.json を生成する
 
