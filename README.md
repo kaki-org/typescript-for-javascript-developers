@@ -20,27 +20,36 @@ npx tsc src/install-typescript.ts
 
 とやると一々パスを指定しなくてもよくなる。
 
-## ts-nodeで楽をする
+## ts-node で楽をする
 
 ```
 npx ts-node src/install-typescript.ts
 ```
-tscも実行してくれる。
 
-## ts-node-devを入れてみる
+tsc も実行してくれる。
+
+## ts-node-dev を入れてみる
 
 ```
 npx ts-node-dev --respawn src/install-typescript.ts
 ```
 
-## package.json で簡略式をscriptsに追加
+## package.json で簡略式を scripts に追加
 
 ```
 "dev": "ts-node-dev --respawn",
 ```
+
 を追加してみることにした。
+
 ```
 yarn dev src/hoge.ts
 ```
 
 などで起動できるようになる
+
+## tsconfig.json を生成する
+
+```
+npx tsc --init
+```
