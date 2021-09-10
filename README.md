@@ -54,3 +54,9 @@ hoge.ts は編集して保存するたびにトランスパイルされ、実行
 ```
 npx tsc --init
 ```
+
+## npm を使ってパッケージのバージョンを調べる
+
+```
+npm info ts-node versions
+```
