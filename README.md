@@ -62,3 +62,11 @@ npx tsc --init
 ```sh
 npm info ts-node versions
 ```
+
+## Jest で Test
+
+```sh
+yarn test
+```
+
+でテストが実行可能なように `package.json` に追記してます。
