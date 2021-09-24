@@ -3,12 +3,12 @@ export {};
 namespace Japanese {
   export namespace Tokyo {
     export class Person {
-      constructor(public name: string){}
+      constructor(public name: string) {}
     }
   }
   export namespace Osaka {
     export class Person {
-      constructor(public name: string){}
+      constructor(public name: string) {}
     }
   }
 }
