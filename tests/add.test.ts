@@ -1,4 +1,4 @@
-import add from '../src/add'
+import add from '../src/high-types/add'
 
 describe('add', (): void => {
   test('should return 3', (): void => {
