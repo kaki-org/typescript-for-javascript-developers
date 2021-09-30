@@ -1,7 +1,6 @@
-export {};
-
-function bmi(height: number, weight: number): number {
+const bmi = (height: number, weight: number): number => {
   return weight / (height * height);
-}
+};
+export default bmi;
 
-console.log(bmi(1.78, 86));
+// console.log(bmi(1.78, 86));

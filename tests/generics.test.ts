@@ -1,5 +1,5 @@
 import { expectType } from 'tsd';
-import echo from '../src/generics';
+import echo from '../src/high-types/generics';
 
 describe('echo', (): void => {
   test('numberを指定したときはnumberが返る', (): void => {
