@@ -55,4 +55,11 @@ describe('matcher', () => {
     // expect(value).toBe(0.3); // 丸め込み誤差
     expect(value).toBeCloseTo(0.3);
   });
+  // 文字列
+  test('there is no I in team', () => {
+    expect('team').not.toMatch(/I/);
+  });
+  test('but there is a "stop" in Christoph', () => {
+    expect('Christoph').toMatch(/stop/);
+  });
 });
