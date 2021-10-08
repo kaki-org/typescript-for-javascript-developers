@@ -13,10 +13,10 @@ const echo = <T>(arg: T): T => {
 };
 export default echo;
 
-console.log(echo<number>(100));
-console.log(echo<string>('kakikubo'));
-console.log(echo<boolean>(true));
-console.log(echo<number>(123));
+// console.log(echo<number>(100));
+// console.log(echo<string>('kakikubo'));
+// console.log(echo<boolean>(true));
+// console.log(echo<number>(123));
 
 class Mirror<T> {
   constructor(public value: T) {}
@@ -26,6 +26,6 @@ class Mirror<T> {
   }
 }
 
-console.log(new Mirror<number>(123).echo());
-console.log(new Mirror<string>('Hello').echo());
-console.log(new Mirror<boolean>(true).echo());
+// console.log(new Mirror<number>(123).echo());
+// console.log(new Mirror<string>('Hello').echo());
+// console.log(new Mirror<boolean>(true).echo());
