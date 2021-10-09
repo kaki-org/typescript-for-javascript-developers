@@ -66,4 +66,15 @@ describe('matcher', () => {
     expect(shoppingList).toContain('milk');
     expect(new Set(shoppingList)).toContain('milk');
   });
+  // 例外
+  const compileAndroidCode: () => never = () => {
+    throw new Error('you are using the wrong JDK');
+  };
+  test('compiling android goes as expected', () => {
+    expect(() => compileAndroidCode()).toThrow();
+    expect(() => compileAndroidCode()).toThrow(Error);
+    // 厳密にエラーメッセージを指定することもできるし、正規表現も使える
+    expect(() => compileAndroidCode()).toThrow('you are using the wrong JDK');
+    expect(() => compileAndroidCode()).toThrow(/JDK/);
+  });
 });
