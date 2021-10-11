@@ -13,6 +13,18 @@ describe('matcher', () => {
       }
     }
   });
+  // 一般的なマッチャー
+  test('object assignment', () => {
+    const data: {[key: string]: number} = {one: 1};
+    data['two'] = 2;
+    expect(data).toEqual({one: 1, two: 2});
+  })
+  // 一般的なマッチャー2
+  test('object assignment2', () => {
+    const data: Record<string, number> = {one: 1};
+    data['two'] = 2;
+    expect(data).toEqual({one: 1, two: 2});
+  })
   // 真偽値
   test('null', () => {
     const n: null = null;
