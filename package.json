@@ -41,7 +41,7 @@
     "yarn": "^1.22.15"
   },
   "devDependencies": {
-    "@types/jest": "^27.0.2",
+    "@types/jest": "^27.0.3",
     "@types/node": "^16.11.12",
     "jest": "^27.4.4",
     "prettier": "^2.4.1",
