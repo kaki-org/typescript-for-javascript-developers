@@ -38,7 +38,7 @@
   "homepage": "https://github.com/kakikubo/typescript-for-javascript-developers#readme",
   "dependencies": {
     "axios": "0.24.0",
-    "yarn": "^1.22.15"
+    "yarn": "^1.22.17"
   },
   "devDependencies": {
     "@types/jest": "^27.0.3",
