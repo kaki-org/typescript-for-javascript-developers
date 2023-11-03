@@ -1,4 +1,3 @@
-import exp from 'constants';
 import sum from '../src/sum';
 
 describe('sum', (): void => {
