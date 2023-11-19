@@ -3,14 +3,14 @@
 ## セットアップ手順
 
 ```sh
-npm install -g yarn
-yarn
+npm install -g bun
+bun
 ```
 
 ## 初期におこなったことのメモ
 
 ```sh
-yarn add --dev typescript@4.4.2
+bun add --dev typescript@4.4.2
 ./node_modules/.bin/tsc src/install-typescript.ts
 ```
 
@@ -45,7 +45,7 @@ npx ts-node-dev --respawn src/install-typescript.ts
 を追加してみることにした。
 
 ```sh
-yarn dev src/hoge.ts
+bun dev src/hoge.ts
 ```
 
 などで起動できるようになる。
@@ -66,7 +66,7 @@ npm info ts-node versions
 ## Jest で Test
 
 ```sh
-yarn test
+bun run test
 ```
 
 でテストが実行可能なように `package.json` に追記してます。
