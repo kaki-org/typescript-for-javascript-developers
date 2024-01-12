@@ -12,7 +12,7 @@
   },
   "packageRules": [
     {
-      "matchManagers": ["npm"],
+      "matchManagers": ["bun"],
       "assignees": ["kakikubo"]
     },
     {
