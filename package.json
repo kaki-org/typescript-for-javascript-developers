@@ -44,7 +44,7 @@
     "yarn": "2.4.3"
   },
   "devDependencies": {
-    "@types/jest": "29.5.14",
+    "@types/jest": "30.0.0",
     "@types/node": "24.0.3",
     "jest": "30.0.0",
     "prettier": "3.5.3",
