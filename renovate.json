@@ -18,9 +18,6 @@
     },
     {
       "matchUpdateTypes": ["minor", "patch"],
-      "patch": {
-        "enabled": true
-      },
       "automerge": true,
       "platformAutomerge": true
     },
