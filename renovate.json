@@ -7,9 +7,6 @@
   "automergeStrategy": "merge-commit",
   "separateMajorMinor": false,
   "labels": ["dependencies"],
-  "patch": {
-    "enabled": false
-  },
   "packageRules": [
     {
       "matchManagers": ["bun"],
@@ -17,22 +14,16 @@
     },
     {
       "matchManagers": ["github-actions"],
-      "assignees": [
-        "kakikubo"
-      ]
+      "assignees": ["kakikubo"]
     },
     {
       "matchUpdateTypes": ["minor", "patch"],
-      "patch": {
-        "enabled": true
-      },
       "automerge": true,
       "platformAutomerge": true
     },
     {
       "matchPackageNames": ["node"],
       "matchUpdateTypes": ["minor", "patch"],
-      "separateMajorMinor": true,
       "automerge": true,
       "platformAutomerge": true
     }
